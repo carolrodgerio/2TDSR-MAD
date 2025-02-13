@@ -8,7 +8,8 @@ function Carol() {
     justifyContent: "center",
     alignItems: "center"}}>
       <Text style={{color: "magenta"}}>Nome: Carolina Estevam Rodgerio</Text>
-      <Text style={{color: "darkpurple"}}>RM: 554975</Text>
+      <Text style={{color: "darkgrey"}}>Faculdade: FIAP</Text>
+      <Text style={{color: "darkpurple"}}>Curso: Análise e Desenvolvimento de Sistemas</Text>
       <Text style={{color: "indigo"}}>Turma: 2TDSR</Text>
     </View>
   )
