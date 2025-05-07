@@ -1,0 +1,18 @@
+// extensão VS Code: REST Client
+
+GET https://tdsr-mad-default-rtdb.firebaseio.com/contatos.json HTTP/1.1
+
+###
+
+POST https://tdsr-mad-default-rtdb.firebaseio.com/contatos.json HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "João Silva",
+    "telefone": "(11) 99999-8888",
+    "email": "joao@teste.com"
+}
+
+###
+
+DELETE https://tdsr-mad-default-rtdb.firebaseio.com/contatos/-OPcG87mF90O3hvmd6TG.json HTTP/1.1
